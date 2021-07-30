@@ -19,12 +19,6 @@ var _completed = false;
 
 // keypad vars end
 
-var audios = [];
-
-var _scale;
-var zoomScaleX, zoomScaleY, scale;
-var tScale = 1;
-window.clickable = true;
 
 function arraysEqual(a1, a2) {
   return JSON.stringify(a1) == JSON.stringify(a2);
